@@ -9,6 +9,16 @@
   }
   return max;
  }
+int min(int a[],int n)
+{
+int min=a[0];
+for(int i=0;i<n;i++)
+{
+if(a[i]<min)
+	min=a[i];
+}
+return min;
+}
 float average(int a[],int n)
 {
 float sum=0;
@@ -37,16 +47,6 @@ for(int i=0;i<n;i++)
   } 
  }
 return maxvalue; 
-}
-int min(int a[],int n)
-{
-int min=a[0];
-for(int i=0;i<n;i++)
-{
-if(a[i]<min)
-	min=a[i];
-}
-return min;
 }
 int factors(int n,int a[])
 {
