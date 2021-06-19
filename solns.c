@@ -1,4 +1,4 @@
-[10:45, 19/06/2021] Yash BT: #include <stdio.h>
+#include <stdio.h>
  int max(int a[],int n)
  {
  int max=0;
@@ -9,7 +9,7 @@
   }
   return max;
  }
-[10:45, 19/06/2021] Yash BT: float average(int a[],int n)
+float average(int a[],int n)
 {
 float sum=0;
 for(int i=0;i<n;i++)
@@ -18,7 +18,7 @@ for(int i=0;i<n;i++)
  }
 return sum/n;
 }
-[10:45, 19/06/2021] Yash BT: int mode(int a[],int n)
+int mode(int a[],int n)
 {
 int maxcount=0;
 int maxvalue=0;
@@ -38,7 +38,7 @@ for(int i=0;i<n;i++)
  }
 return maxvalue; 
 }
-[10:45, 19/06/2021] Yash BT: int min(int a[],int n)
+int min(int a[],int n)
 {
 int min=a[0];
 for(int i=0;i<n;i++)
@@ -48,7 +48,7 @@ if(a[i]<min)
 }
 return min;
 }
-[10:45, 19/06/2021] Yash BT: int factors(int n,int a[])
+int factors(int n,int a[])
 {
 int count=0;
 for(int i=0;i<100;i++)
