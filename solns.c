@@ -1,3 +1,4 @@
+/* Enter your solutions in this file */
 #include <stdio.h>
  int max(int a[],int n)
  {
@@ -9,6 +10,7 @@
   }
   return max;
  }
+
 int min(int a[],int n)
 {
 int min=a[0];
@@ -19,6 +21,7 @@ if(a[i]<min)
 }
 return min;
 }
+
 float average(int a[],int n)
 {
 float sum=0;
@@ -28,6 +31,7 @@ for(int i=0;i<n;i++)
  }
 return sum/n;
 }
+
 int mode(int a[],int n)
 {
 int maxcount=0;
@@ -48,6 +52,7 @@ for(int i=0;i<n;i++)
  }
 return maxvalue; 
 }
+
 int factors(int n,int a[])
 {
 int count=0;
